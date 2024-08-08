@@ -136,6 +136,10 @@ Once you have provided all the required details, select **[!UICONTROL Update acc
 
 You can use either the expiring or non-expiring credentials to connect with external clients, such as Aqua Data Studio, Looker, or Power BI. The method of input for these credentials will vary depending on the external client. Refer to the external client's documentation for specific instructions on the use of these credentials.
 
+Note : In order to use the non-expiring credentials to connect with extenral clients such as Poer BI, make sure add the API credentilas to the product profile section using Add API Credentials button, only Product profile owner can make this change, this setup is very critical.
+
+
+
 The image indicates the location of each parameter found in the UI except for the password of the non-expiring credentials. While non-expiring credentials are provided by their JSON configuration files, you can view your expiring credentials under the **Credentials** tab in the UI.
 
 ![The Queries workspace Credentials tab with the Expiring credentials section highlighted.](../images/ui/credentials/expiring-credentials.png)
