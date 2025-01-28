@@ -71,7 +71,7 @@ If your company has access to multiple organizations, make sure that you use the
 *  **[!UICONTROL Munchkin ID]**: The Munchkin ID is the unique identifier for a specific Marketo instance.
 *  **[!UICONTROL Partition]**: a concept in Marketo Engage used to separate lead records by business concern
 *  **[!UICONTROL First searchable field]**: Field to deduplicate on. The field must be present in each lead record of the input. Defaults to email
-*  **[!UICONTROL First searchable field]**: A secondary field to deduplicate on. The field must be present in each lead record of the input. Optional
+*  **[!UICONTROL Second searchable field]**: A secondary field to deduplicate on. The field must be present in each lead record of the input. Optional
 
 Once you have selected your instance, you will also need to select the Lead Partition which you want the configuration to integrate with. A [Lead Partition](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions) is a concept in Marketo Engage used to separate lead records by business concern, such as a brand or a sales region. If your Marketo subscription does not have the Workspaces and Partitions feature, or if no additional partitions have been created in your subscription, then only the Default partition will be available. A single configuration can only update lead records which exist in its configured partition.
 
